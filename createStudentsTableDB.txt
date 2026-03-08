@@ -1,0 +1,17 @@
+CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL
+);
+
+INSERT INTO students (student_name, email) VALUES
+('Emma Johnson', 'emma.johnson@email.com'),
+('Liam Anderson', 'liam.anderson@email.com'),
+('Olivia Martinez', 'olivia.martinez@email.com'),
+('Noah Kim', 'noah.kim@email.com'),
+('Sophia Nguyen', 'sophia.nguyen@email.com'),
+('Ethan Brown', 'ethan.brown@email.com'),
+('Ava Rodriguez', 'ava.rodriguez@email.com'),
+('Lucas Chen', 'lucas.chen@email.com'),
+('Isabella Khan', 'isabella.khan@email.com'),
+('Mason Wilson', 'mason.wilson@email.com');

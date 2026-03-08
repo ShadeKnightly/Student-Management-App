@@ -1,0 +1,37 @@
+Assignment 1: Student information management application
+
+1. Open XAMPP Control Panel, start Apache and MySQL
+2. Access your php files through the browser by typing http://localhost/index.php
+3. Build MVC file structure: 
+
+    config folder(Database Setup) Connect to the database, used by models
+        Database.php
+
+    controllers folder(Logic)
+        StudentController.php -> Connect pages to the Student model
+        AuthController.php -> login and registration logic (process form, call models, session handling, redirects)
+    
+    models folder(Database Queries) Handles database operations (CRUD queries, verify login)
+        Student.php
+        User.php 
+
+    pages folder(UI/Forms)
+        login.php -> login form and call AuthController, sends data via post to login logic
+        register.php -> registration form calls AuthController
+        students.php -> checks login, calls StudentController, display students list
+        create_student.php -> calls StudentController, adds new student 
+    
+    partials folder(Reusable UI)
+        header.php
+        footer.php
+        navbar.php
+
+    styles folder(CSS)
+        style.css
+        
+    .htaccess
+    createStudentsTableDB.txt
+    createUsersTableDB.txt
+    logout.php
+    index.php -> redirects to login
+
