@@ -4,9 +4,3 @@ CREATE TABLE users (
     email VARCHAR(255) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL
 );
-
-INSERT INTO users (username, email, password) VALUES
-('admin', 'admin@email.com', 'admin123'),
-('john_doe', 'john@email.com', 'password123'),
-('sarah_smith', 'sarah@email.com', 'mypassword'),
-('alex_dev', 'alex@email.com', 'devpass');

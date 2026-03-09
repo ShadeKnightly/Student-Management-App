@@ -157,3 +157,11 @@ Two SQL files are included:
 `createStudentsTableDB.txt`
 
 * Creates the students table.
+
+## App Flow
+1. User visits index.php → redirected to login page
+2. New users can register with username, email and password
+3. After login, user is taken to the students page
+4. Students page shows all students with options to add or delete
+5. Delete asks for confirmation before removing
+6. Add student form validates input before submitting
