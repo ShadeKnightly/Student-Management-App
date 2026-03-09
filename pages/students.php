@@ -39,6 +39,8 @@ $students = $controller->getStudents();
             <div class="error"><?php echo $_GET['error']; ?></div>
         <?php endif; ?>
 
+        <a href="create_student.php" class="btn">Add New Student</a>
+
         <table>
             <thead>
                 <tr>
